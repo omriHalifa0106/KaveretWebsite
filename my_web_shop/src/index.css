@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+* {
+  box-sizing: border-box;
+  direction: rtl;
+}
+body {
+  background: #f4c40c !important;
+  min-height: 100vh;
+  display: flex;
+  direction: rtl;
+  font-weight: 400;
+  font-family: 'David';
+}
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: Tahoma, Arial, sans-serif;
+  direction: rtl;
+}
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+  direction: rtl;
+}
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  direction: rtl;
+}
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: right;
+  direction: rtl;
+}
+
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+  direction: rtl;
+}
+
+.auth-inner2 {
+  width: 850px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 30px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+  direction: rtl;
+}
+.auth-wrapper .form-control:focus {
+  border-color: #f4c40c;
+  box-shadow: none;
+  direction: rtl;
+}
+
+.input-group.md-form.form-sm.form-1 input {
+  border: 1px solid #f4c40c;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+  direction: rtl;
+}
+.custom-control-label {
+  font-weight: 400;
+  direction: rtl;
+}
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+  direction: rtl;
+}
+.forgot-password a {
+  color: #f4c40c;
+  direction: rtl;
+}
+
+.photo {
+  height: 150px;
+  width: 150px; 
+}
+
+
+.photoIcon {
+  height: 25px;
+  width: 120px; 
+}
+
+.photoHomePage {
+  height: 200px;
+  width: 380px; 
+}
+
+
+button.badge {
+  background-color: #f4c40c;
+  border: none;
+  color: #000000;
+  width: 1.5rem;
+}
